@@ -1,12 +1,13 @@
-public class Conta {
+//não pode instanciar objetos dessa classe, pq é abstrata
+public abstract class Conta {
 
-    private double saldo;
+    protected double saldo;
     private int agencia;
     private int numero;
     private Cliente titular;
     private static int total = 0;
     
-    public Conta(){
+    public Conta(double valor){
 
     }
 
